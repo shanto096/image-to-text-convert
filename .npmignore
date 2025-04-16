@@ -1,0 +1,8 @@
+test.js
+sample-image.jpg
+node_modules
+*.log
+.git
+.gitignore
+.vscode
+README-draft.md
