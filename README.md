@@ -10,19 +10,6 @@ Extract and beautify text from images using Tesseract.js. Supports Bengali and E
 npm install image-to-text-convert
 ```
 
-✅ Make sure your project includes the required `tessdata` folder with language files:
-
-```
-image-to-text-convert/
-├
-│── eng.traineddata.gz
-│── ben.traineddata.gz
-```
-
-You can download traineddata files from: https://github.com/tesseract-ocr/tessdata_fast
-
----
-
 ## 🧠 Basic Usage (Node.js)
 
 ```js
@@ -153,9 +140,6 @@ npm install uuid
 
 ```
 📦 project-root/
-├
-│── eng.traineddata.gz
-│── ben.traineddata.gz
 ├── 📁 uploads/
 ├── 📁 src/
 │   └── index.js
