@@ -1,19 +1,13 @@
 {
     "name": "image-to-text-convert",
-    "version": "1.1.0",
+    "version": "1.0.1",
     "main": "index.js",
-    "types": "dist/index.d.ts",
     "scripts": {
-        "build": "tsc",
-        "test": "node test.js",
-        "prepare": "npm run build",
-        "lint": "eslint src --ext .ts",
-        "format": "prettier --write \"src/**/*.ts\"",
-        "prepublishOnly": "npm test && npm run lint"
+        "test": "node test.js"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/shanto096/image-to-text-convert"
+        "url": "https://github.com/shanto096/image-to-text-convert.git"
     },
     "keywords": [
         "ocr",
@@ -31,18 +25,5 @@
     "description": "Extract text from images and format them nicely into paragraphs. Supports both English and Bengali.",
     "dependencies": {
         "tesseract.js": "^6.0.1"
-    },
-    "devDependencies": {
-        "@types/jest": "^29.5.0",
-        "@types/node": "^20.17.30",
-        "@typescript-eslint/eslint-plugin": "^6.0.0",
-        "@typescript-eslint/parser": "^6.0.0",
-        "eslint": "^8.0.0",
-        "jest": "^29.5.0",
-        "prettier": "^3.0.0",
-        "ts-jest": "^29.1.0",
-        "typescript": "^5.0.0"
     }
-   
-   
 }
