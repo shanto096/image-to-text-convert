@@ -8,3 +8,4 @@ imageToText(imageBuffer).then(text => {
 }).catch(err => {
     console.error('❌ Error:', err);
 });
+
