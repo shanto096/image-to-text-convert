@@ -1,7 +1,7 @@
 const fs = require('fs');
 const imageToText = require('./src');
 
-const imageBuffer = fs.readFileSync('IMG_20231202_012251.jpg');
+const imageBuffer = fs.readFileSync('Minimalist Professional CV Resume.png');
 
 imageToText(imageBuffer).then(text => {
     console.log('📄 Extracted Text:\n', text);
