@@ -1,6 +1,6 @@
 {
-    "name": "image-to-text-convert",
-    "version": "2.1.0",
+    "name": "@shanto/image-to-text-convert",
+    "version": "2.1.1",
     "main": "index.js",
     "type": "module",
     "scripts": {
