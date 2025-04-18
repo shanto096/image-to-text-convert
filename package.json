@@ -1,6 +1,6 @@
 {
-    "name": "@shanto/image-to-text-convert",
-    "version": "2.1.1",
+    "name": "@shanto-kumar/image-to-text-convert",
+    "version": "1.0.0",
     "main": "index.js",
     "type": "module",
     "scripts": {
@@ -9,6 +9,9 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/shanto096/image-to-text-convert.git"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "keywords": [
         "ocr",

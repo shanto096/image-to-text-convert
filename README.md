@@ -1,4 +1,4 @@
-# 📦 @shanto/image-to-text-convert
+# 📦 @shanto-kumar/image-to-text-convert
 
 A powerful Node.js package to extract and beautify text from images using Tesseract.js. Supports both Bengali and English OCR with automatic text formatting.
 
@@ -15,7 +15,7 @@ A powerful Node.js package to extract and beautify text from images using Tesser
 ## 🚀 Installation
 
 ```bash
-npm install @shanto/image-to-text-convert
+npm install @shanto-kumar/image-to-text-convert
 ```
 
 ## ⚙️ Important: ES Modules
@@ -38,7 +38,7 @@ This package is pure ESM. It uses ES Modules exclusively. Make sure your project
 
 ```javascript
 // Using ES Modules (recommended)
-import { imageToText } from '@shanto/image-to-text-convert';
+import { imageToText } from '@shanto-kumar/image-to-text-convert';
 
 // Example usage with async/await
 async function extractText() {
@@ -58,7 +58,7 @@ extractText();
 1. First, set up your Express project and install dependencies:
 
 ```bash
-npm install express multer @shanto/image-to-text-convert
+npm install express multer @shanto-kumar/image-to-text-convert
 ```
 
 2. Create your Express server (make sure to use .mjs extension or set "type": "module"):
@@ -66,7 +66,7 @@ npm install express multer @shanto/image-to-text-convert
 ```javascript
 import express from 'express';
 import multer from 'multer';
-import { imageToText } from '@shanto/image-to-text-convert';
+import { imageToText } from '@shanto-kumar/image-to-text-convert';
 import { unlink } from 'fs/promises';
 import cors from 'cors';
 
@@ -105,7 +105,7 @@ app.listen(3000, () => {
 2. Install required packages:
 
 ```bash
-npm install @shanto/image-to-text-convert axios
+npm install @shanto-kumar/image-to-text-convert axios
 ```
 
 3. Create an image upload component:
@@ -168,14 +168,14 @@ export default ImageUploader;
 1. Set up your Next.js project and install dependencies:
 
 ```bash
-npm install next @shanto/image-to-text-convert uuid axios
+npm install next @shanto-kumar/image-to-text-convert uuid axios
 ```
 
 2. Create an API route (`app/api/extract-text/route.js`):
 
 ```javascript
 import { NextResponse } from 'next/server';
-import { imageToText } from '@shanto/image-to-text-convert';
+import { imageToText } from '@shanto-kumar/image-to-text-convert';
 import { writeFile, unlink } from 'fs/promises';
 import path from 'path';
 import { v4 as uuidv4 } from 'uuid';
