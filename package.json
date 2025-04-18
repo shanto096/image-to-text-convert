@@ -2,8 +2,9 @@
     "name": "image-to-text-convert",
     "version": "2.1.0",
     "main": "index.js",
+    "type": "module",
     "scripts": {
-        "test": "node test.js"
+        "test": "node index.js"
     },
     "repository": {
         "type": "git",
