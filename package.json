@@ -1,6 +1,6 @@
 {
     "name": "@shanto-kumar/image-to-text-convert",
-    "version": "1.0.2",
+    "version": "2.0.2",
     "main": "index.js",
     "type": "module",
     "scripts": {
@@ -14,11 +14,17 @@
         "access": "public"
     },
     "keywords": [
+        "npm",
+        "@shanto-kumar/image-to-text-convert",
+        "convert",
         "ocr",
         "image-to-text",
         "tesseract",
         "text-extraction",
         "nodejs",
+        "react",
+        "next",
+        "express",
         "javascript",
         "english",
         "bengali",
